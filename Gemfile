@@ -24,3 +24,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '1.4.0'
 end
+
+group :test do
+  # Putting some color in minitest output
+  gem 'minitest-reporters'
+end
